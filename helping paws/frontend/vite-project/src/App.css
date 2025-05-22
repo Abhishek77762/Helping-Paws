@@ -1,0 +1,132 @@
+
+/************************ RECIPES SECTION STYLING STARTS **************************************/
+.recipes {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    margin: 35px 35px;
+  }
+  
+  .recipes .containers {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-gap: 40px;
+  }
+  .recipes .containers .card {
+    text-decoration: none;
+  }
+  .recipes .containers .card img {
+    width: 100%;
+    height: 260px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+  }
+  .recipes .containers .card h4 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #111;
+    margin-bottom: 10px;
+  }
+  .recipes .containers .card h4:last-child {
+    font-size: 20px;
+    font-weight: 600;
+    color: #dc582a;
+  }
+  .recipes h3 {
+    font-size: 32px;
+    font-weight: 600;
+  }
+  
+  @media (max-width: 840px) {
+    .recipes .containers {
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    }
+  }
+  @media (max-width: 699px) {
+    .recipes .containers {
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    }
+  }
+  @media (max-width: 620px) {
+    .recipes section:first-child button {
+      width: 100%;
+    }
+  }
+  /************************ RECIPES SECTION STYLING ENDS **************************************/
+  
+  
+  
+  /************************ RECIPE DETAILS SECTION STYLING STARTS **************************************/
+  .recipe-details {
+    min-height: 810px;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  .recipe-details img {
+    width: 80%;
+    height: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+  }
+  .recipe-details h1 {
+    margin-bottom: 10px;
+  }
+  .recipe-details p {
+    margin-bottom: 35px;
+    color: green;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .recipe-details div {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-bottom: 35px;
+  }
+  .recipe-details div ul {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    list-style: inside;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  /************************ RECIPE DETAILS SECTION STYLING ENDS **************************************/
+  
+  /************************ ABOUT SECTION STYLING STARTS **************************************/
+  .about {
+    min-height: 733px;
+  }
+  .about h1 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    color: rgb(0, 0, 37);
+    margin-bottom: 35px;
+  }
+  .about p {
+    margin-bottom: 15px;
+    font-size: 20px;
+    color: gray;
+  }
+  /************************ ABOUT SECTION STYLING ENDS **************************************/
+  
+  
+  .logo {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin: 0 auto;
+  }
+  
+  .fLogo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    /* margin: 0 auto; */
+  }
